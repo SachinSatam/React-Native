@@ -1,0 +1,6 @@
+[
+    {"id": 1, "label":"Petrol Pump", "color":"#FF7300B3"},
+    {"id": 2, "label":"Lodging", "color":"#39AC39B3"},
+    {"id": 3, "label":"Park", "color":"#00B8E6B3"},
+    {"id": 4, "label":"Medicals","color":"#FFCC00B3"}
+]  

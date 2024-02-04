@@ -1,0 +1,7 @@
+[
+    {"id": 1, "label":"Forts", "color":"#FF7300B3"},
+    {"id": 2, "label":"Sanctuaries", "color":"#39AC39B3"},
+    {"id": 3, "label":"UNESCO", "color":"#00B8E6B3"},
+    {"id": 4, "label":"Hill Stations","color":"#FFCC00B3"},
+    {"id": 5, "label":"Sea Beaches","color":"#0099FFB3"}
+]    

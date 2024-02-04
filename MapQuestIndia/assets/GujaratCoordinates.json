@@ -1,0 +1,14 @@
+[
+    {"id": 1, "name": "Maharashtra", "imagelink": "D:\\Games\\candolim.jpg"},
+    {"id": 2, "name": "Gujarat", "imagelink": ""},
+    {"id": 3, "name": "Goa", "imagelink": ""},
+    {"id": 4, "name": "Arunanchal Pradesh", "imagelink": ""},
+    {"id": 5, "name": "Andhra Pradesh", "imagelink": ""},
+    {"id": 6, "name": "Kerala", "imagelink": ""},
+    {"id": 7, "name": "Tamil Nadu", "imagelink": ""},
+    {"id": 8, "name": "Punjab", "imagelink": ""},
+    {"id": 9, "name": "Karnataka", "imagelink": ""},
+    {"id": 10, "name": "Bihar", "imagelink": ""},
+    {"id": 11, "name": "Uttar Pradesh", "imagelink": ""},
+    {"id": 12, "name": "Himachal Pradesh", "imagelink": ""}
+  ]

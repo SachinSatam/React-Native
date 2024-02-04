@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "MapQuestIndia",
+    "slug": "MapQuestIndia",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.anonymous.MapQuestIndia"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "@rnmapbox/maps",
+        {
+          "RNMapboxMapsVersion": "11.0.0",
+          "RNMapboxMapsDownloadToken": "sk.eyJ1Ijoic2FjaGluc2F0YW00IiwiYSI6ImNscTUyNW8wZjBnMm0ya205Yjc2dnRjdmIifQ.d6pJgpc0gLrijp_2JGrJdw"
+        }
+      ]
+    ]
+  }
+}
