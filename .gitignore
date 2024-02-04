@@ -35,5 +35,5 @@ yarn-error.*
 
 # typescript
 *.tsbuildinfo
-
+.App.js
 .mapquestindia-firebase-adminsdk-ofslk-cabda47b5b
