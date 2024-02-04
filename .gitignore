@@ -9,6 +9,8 @@ dist/
 .env
 web-build/
 
+mapquestindia-firebase-adminsdk-ofslk-cabda47b5b
+
 # Native
 *.orig.*
 *.jks
@@ -35,5 +37,4 @@ yarn-error.*
 
 # typescript
 *.tsbuildinfo
-App.js
-mapquestindia-firebase-adminsdk-ofslk-cabda47b5b
+
