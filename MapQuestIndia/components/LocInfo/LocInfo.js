@@ -26,6 +26,7 @@ import LocationLogo from "../../assets/SVGS/Locationlogo";
 import PlaceCard from "./PlaceCard";
 import { useAppContext } from "../MainContext";
 import Slider from "@react-native-community/slider";
+import {GOOGLE_MAPS_APIKEY} from "@env"
 
 const LocInfo = () => {
   const {
@@ -62,9 +63,9 @@ const LocInfo = () => {
 
   const fetchNearbyPlaces = async (latitude, longitude, radius, query) => {
     try {
-      const apiKey = "AIzaSyAgWiRi7G8_U6hQ5-5VcxOOBVbgt_CUe30";
+      
 
-      const url = `https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=${latitude},${longitude}&radius=${radius}&type=${query}&key=${apiKey}`;
+      const url = `https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=${latitude},${longitude}&radius=${radius}&type=${query}&key=${GOOGLE_MAPS_APIKEY}`;
       let response = await fetch(url, {
         method: "GET",
         headers: {

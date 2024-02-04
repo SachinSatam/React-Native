@@ -4,6 +4,7 @@ import MapView, { PROVIDER_GOOGLE, Marker, Circle } from "react-native-maps";
 import { useAppContext } from "../MainContext";
 import MapViewDirections from "react-native-maps-directions"
 import { PermissionsAndroid, Platform } from 'react-native';
+import {GOOGLE_MAPS_APIKEY} from "@env"
 
 export default function LocInfoMapView({ radius, markersData }) {
   const initialLocation = {
@@ -60,7 +61,7 @@ export default function LocInfoMapView({ radius, markersData }) {
         <MapViewDirections
         origin={{latitude:LocInfoItem.latitude,longitude:LocInfoItem.longitude}}
         destination={{latitude:destinationlatitude, longitude:destinationlongitude}}
-        apikey="AIzaSyAgWiRi7G8_U6hQ5-5VcxOOBVbgt_CUe30"
+        apikey={GOOGLE_MAPS_APIKEY}
         strokeWidth={3}
         />
 
