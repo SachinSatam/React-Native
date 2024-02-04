@@ -10,7 +10,7 @@ dist/
 web-build/
 
 mapquestindia-firebase-adminsdk-ofslk-cabda47b5b
-
+%ProgramData%
 # Native
 *.orig.*
 *.jks
